@@ -1,0 +1,52 @@
+{{!< default}}
+{{> header}}
+<main class="main_cece" role="main">
+  <div class="row">
+    <div class="col-xs-12 col-md-8 col-lg-8">
+      {{#foreach posts}}
+      <div class="col-xs-12 col-md-12 col-lg-12">
+        <article class="article_cece" role="article" itemscope itemtype="http://schema.org/Article">
+            <header class="posthead_cece">
+                <time class="date_cece" datetime="{{date format="YYYY-MM-DD"}}" itemprop="datePublished">
+                <h1 class="posttitle_cece" itemprop="headline"><a href="{{{url}}}" rel="bookmark">{{title}}</a></h1>
+                <p class="date_cece">{{date format='DD MMM YYYY'}}</p>
+                {{#if author}}
+                <div class="author_cece">{{{author}}}</div>
+                {{/if}}
+            </header>
+            <div class="postcontent_cece" itemprop="articleBody">
+                {{excerpt words="100"}}...
+            </div>
+
+        {{#if tags}}
+            <div class="posttags_cece">
+                Tags: {{tags separator=" | "}}
+                </div>
+        {{/if}}
+        <div class="row">
+          <div class="col-xs-offset-6 col-xs-6 col-md-offset-9 col-md-4 col-lg-offset-10 col-lg-4">
+            <div>
+              <a href="{{{url}}}" class="mas">VER MAS...</a>
+            </div>
+          </div>
+        </div>
+        </article>
+      </div>
+      {{/foreach}}
+      {{#if pagination}}
+      <div class="col-xs-12">
+        <div class="pagination">
+          {{pagination}}
+        </div>
+      </div>
+      {{/if}}
+    </div>
+    <div class="col-xs-12 col-md-4 col-lg-4">
+      <div class="twitter_cece">
+        <a class="twitter-timeline" href="https://twitter.com/CECEUSB" data-widget-id="714176893545742337">Tweets por el @CECEUSB.</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+    </div>
+    </div>
+</main>
+{{> footer}}

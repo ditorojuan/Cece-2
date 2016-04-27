@@ -1,0 +1,28 @@
+<div role='banner' class="main-header" {{#if @blog.cover}}style="background: url({{@blog.cover}});"{{/if}}>
+    <h1 class="blogtitle"><a title="{{@blog.title}}" href='{{@blog.url}}'>{{{@blog.title}}}</a></h1>
+    <h2 class="blogdescription">{{@blog.description}}</h2>
+    <nav class="navigation">
+      {{#if @blog.navigation}}
+         {{navigation}}
+      {{/if}}
+    </nav>
+    </div>
+
+    <div class="m-Nav" style="width: 100%;">
+      <div class="row">
+        <div class="col-xs-9">
+      <h3>MENU</h3>
+    </div>
+    <div class="col-xs-2">
+      <div><img src="{{asset "images/menu.png"}}" id="open"alt=""/>
+      <img src="{{asset "images/menu-x.png"}}" id="close"alt=""/></div>
+    </div>
+    </div>
+      <div class="m-nav-active">
+      {{#if @blog.navigation}}
+        <div class="m-navi">
+         {{navigation}}
+        </div>
+      {{/if}}
+    </div>
+  </div>

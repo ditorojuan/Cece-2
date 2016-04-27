@@ -1,0 +1,17 @@
+{{!< default}}
+{{> header}}
+  {{#post}}
+  <div class="row">
+    <div class="col-xs-12 col-lg-offset-2 col-lg-8" style="padding-left: 2em;">
+        <article class="article_cece">
+            <header class="posthead_cece">
+                <h1 class="posttitle_cece" itemprop="headline"><a href="{{{url}}}" rel="bookmark">{{title}}</a></h1>
+            </header>
+            <div class="postcontent_cece">
+                {{content}}
+            </div>
+        </article>
+      </div>
+    </div>
+  {{/post}}
+{{> footer}}

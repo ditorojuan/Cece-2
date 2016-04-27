@@ -1,0 +1,24 @@
+{{!< default}}
+{{> header}}
+  <div class="row">
+    <div class="col-xs-12 col-lg-offset-2 col-lg-8" style="padding-left: 2em;">
+      {{#get "posts" include="author" filter="tags:columna-estudiantil"}}
+      {{#foreach posts}}
+      <article class="article_cece">
+          <header class="posthead_cece">
+              <time class="date_cece" datetime="{{date format="YYYY-MM-DD"}}" itemprop="datePublished">
+              <h1 class="posttitle_cece" itemprop="headline"><a href="{{{url}}}" rel="bookmark">{{title}}</a></h1>
+              <p class="date_cece">{{date format='DD MMM YYYY'}}</p>
+              {{#if author}}
+              <div class="author_cece">{{{author}}}</div>
+              {{/if}}
+          </header>
+          <div class="postcontent_cece">
+              {{content}}
+          </div>
+        </article>
+        {{/foreach}}
+      {{/get}}
+    </div>
+  </div>
+{{> footer}}
