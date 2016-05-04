@@ -552,12 +552,13 @@ p{
 nav{
   display: block;
 }
+
 ul.nav{
   display: block;
-  background-color: #f7a300;
   font-family: "Heuristica";
   text-transform: uppercase;
-  width: 70%;
+  width: 70%;;
+  background-color: #f7a300;
   height: auto;
   position: relative;
   left: 10%;
@@ -582,8 +583,20 @@ ul>li a:hover{
 .m-nav-active{
   display: none;
 }
+.full-width-nav{
+  margin: 1rem 6rem 1rem 3rem;
+  left: 0;
+}
 
+@media screen and (max-width: 1280px){
+  ul .nav{
+    font-size: 90%;
+  }
 
+  ul>li{
+    margin: .5rem 1.5rem .5rem .5rem;
+  }
+}
 @media screen and (max-width: 800px){
   nav{
     display: none;
@@ -635,6 +648,10 @@ ul>li a:hover{
   ul.nav:hover{
     color: #000;
     text-decoration: underline;
+  }
+
+  ul>li{
+    margin: .5rem 10rem 1rem .5rem;
   }
 }
 .fixed{
