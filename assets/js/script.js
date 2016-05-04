@@ -54,7 +54,7 @@ $(document).ready(function() {
 		scrollPos = $(window).scrollTop();
 		if (scrollPos >= navOffset) {
 			$("nav.navigation").addClass("fixed");
-			$("ul li").css("margin","1rem 1.5rem 1rem 0.5rem");
+			$("ul li").css("margin","1rem 6rem 1rem 3rem");
 			if(mq.matches){
 			$(".nav").css("left","0%");
 			$(".nav").css("width","100%");}
