@@ -570,15 +570,15 @@ ul.nav{
   padding: 0 2em;
   margin: 0 auto;
 }
-ul>li{
+ul.nav>li{
     display: inline-block;
     margin: 0.5rem 1.5rem 0.5rem 1.5rem;
 }
-ul>li a{
+ul.nav>li a{
   color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
 }
-ul>li a:hover{
+ul.nav>li a:hover{
   color: rgba(0, 0, 0, 1);
   text-decoration: underline;
 }
@@ -659,7 +659,7 @@ ul>li a:hover{
     text-decoration: underline;
   }
 
-  ul>li{
+  ul.nav>li{
     display: block;
     padding: 0;
     margin: 1rem 0 1rem 0;
