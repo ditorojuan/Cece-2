@@ -478,7 +478,7 @@ p{
 }
 /**header**/
 .blogtitle{
-  margin: 0.5em 0;
+  margin: 0.5em 0 0 0;
 }
 .main-header {
   position: relative;
@@ -508,20 +508,22 @@ p{
 }
 .blogdescription{
   background-color: #f7a300;
-  width: 17%;
+  width: auto;
   position: relative;
   left: 40%;
   padding: 0;
+  display: inline-block;
 }
 
 .main-header h2.blogdescription {
   text-align: center;
-  display: block;
+  display: inline-block;
   text-transform: uppercase;
   font-family: "Heuristica";
   font-weight: 200;
   color: #000;
   margin: -1em 0 0 0;
+  padding: 0 2em;
   font-size: 0.8em;
   text-decoration: none;
 }
@@ -552,22 +554,25 @@ p{
 nav{
   display: block;
 }
-
-ul.nav{
+nav.navigation{
   display: block;
+  text-align: center;
+}
+ul.nav{
+  display: inline-block;
   font-family: "Heuristica";
   text-transform: uppercase;
-  width: 70%;;
+  width: auto;
   background-color: #f7a300;
   height: auto;
   position: relative;
-  left: 10%;
-  margin: -0.1rem 0;
   font-size: 100%;
+  padding: 0 2em;
+  margin: 0 auto;
 }
 ul>li{
     display: inline-block;
-    margin: 0.5rem 1.5rem 0.2rem 2.3rem;
+    margin: 0.5rem 1.5rem 0.5rem 1.5rem;
 }
 ul>li a{
   color: rgba(0, 0, 0, 0.6);
@@ -584,23 +589,28 @@ ul>li a:hover{
   display: none;
 }
 .full-width-nav{
-  margin: 1rem 6rem 1rem 3rem;
+  margin: 1rem 3rem 1rem 1rem;
+  padding: 0;
   left: 0;
 }
 
 @media screen and (max-width: 1280px){
   ul .nav{
-    font-size: 90%;
+    font-size: 100%;
+    margin: 0 auto;
   }
 
-  ul>li{
-    margin: .5rem 1.5rem .5rem .5rem;
+}
+@media screen and (max-width: 400px){
+  .m-Nav img{
+    min-width: 180%;
   }
 }
 @media screen and (max-width: 800px){
-  nav{
+  nav.navigation{
     display: none;
       }
+
   .m-Nav{
     display: block;
     font-family: "Heuristica";
@@ -616,7 +626,7 @@ ul>li a:hover{
 
   }
   .m-Nav img{
-   max-width: 100%;
+   max-width: 110%;
    margin: .5em 0 0 1em;
 
   }
@@ -637,7 +647,6 @@ ul>li a:hover{
   }
   ul.nav{
     display: block;
-    position: relative;
     width: 100%;
     margin: 0  0 2em 0;
     font-family: "Antonio";
@@ -651,7 +660,8 @@ ul>li a:hover{
   }
 
   ul>li{
-    margin: .5rem 10rem 1rem .5rem;
+    margin: .5rem .5rem 1rem .5rem;
+    padding: 0 10rem 0 0;
   }
 }
 .fixed{

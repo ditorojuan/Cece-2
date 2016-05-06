@@ -24,8 +24,7 @@ $(document).ready(function() {
 		} else {
 			$("nav.navigation").removeClass("fixed");
 			$("ul li").removeClass("full-width-nav");
-			$("ul.nav").css("width","70%");
-			$("ul.nav").css("left","10%");
+			$("ul.nav").css("width","auto");
 
 		}
 
