@@ -19,11 +19,11 @@ $(document).ready(function() {
 		if (scrollPos >= navOffset) {
 			$("nav.navigation").addClass("fixed");
 			$("ul.nav").css("width","100%");
-			$("ul li").addClass("full-width-nav");
+			$("ul.nav li").addClass("full-width-nav");
 			$("ul.nav").css("left","0");
 		} else {
 			$("nav.navigation").removeClass("fixed");
-			$("ul li").removeClass("full-width-nav");
+			$("ul.nav li").removeClass("full-width-nav");
 			$("ul.nav").css("width","auto");
 
 		}

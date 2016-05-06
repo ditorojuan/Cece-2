@@ -713,7 +713,15 @@ ul.nav>li a:hover{
   margin: 1em 2em 0 2em;
   padding: 1em 0 1em 1em;
 }
-
+@media screen and (max-width: 800px){
+  .postcontent_cece{
+    margin: 1em .5em 0 1em;
+    padding: .5em 0 .5em .5em;
+  }
+  .posthead_cece{
+   margin: 0 0.5rem .8rem 1rem;
+  }
+}
 .posttags_cece{
   font-family: "Heuristica";
   font-style: italic;
