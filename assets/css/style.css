@@ -690,7 +690,6 @@ ul.nav>li a:hover{
   color: #f7a923;
   font-size: 90%;
   text-decoration: none;
-  font-style: italic;
   font-weight: 300;
   text-transform: uppercase;
  }
@@ -708,7 +707,6 @@ ul.nav>li a:hover{
 /** post body**/
 .postcontent_cece{
   font-family: "Heuristica";
-  font-style: italic;
   font-weight: 400;
   margin: 1em 2em 0 2em;
   padding: 1em 0 1em 1em;
