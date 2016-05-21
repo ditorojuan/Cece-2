@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Lato);
 /**Header**/
+
 .cw_header {
     background-image: url('../images/cw_bg.png');
     background-repeat: no-repeat;
@@ -38,7 +39,7 @@
   font-family: "Lato";
   font-weight: bold;
 }
-.cw_content_title:after{
+.cw_content_icc_title:after{
   content: "";
   display: block;
   position: relative;
@@ -74,7 +75,7 @@
   background-attachment: fixed;
   background-size: cover;
   padding: 10% 0;
-  width: 100%;
+  width: 102%;
   transform: scale(0);
   transition: all 350ms ease-in-out;
 }
@@ -87,4 +88,98 @@
 
 .cw_show_zoomin{
   transform: scale(1);
+}
+/**PONENTES**/
+.ponente{
+  margin: 10px 20px 0 0;
+}
+.ponente_perfil{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  background-image: white;
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 3px #2f2b68;
+  background-position: center top;
+  transform: scale(0);
+  transition: all 300ms ease-in-out;
+}
+.ponente_info{
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+  display: none;
+  transition: all 300ms ease-in-out;
+}
+.ponente_show_zoomin{
+  transform: scale(1);
+}
+.perfil_1 {
+  background-image: url();
+}
+.perfil_2{
+  background-image: url(http://i.imgur.com/tmEpYEV.png);
+}
+.perfil_3{
+  background-image: url(http://i.imgur.com/1d7FbOj.png);
+}
+.perfil_4{
+  background-image: url();
+}
+.perfil_5{
+  background-image: url(http://i.imgur.com/T3LKlDV.png);
+}
+.perfil_6{
+  background-image: url(http://i.imgur.com/e86fsDs.png);
+}
+.perfil_7{
+  background-image: url();
+}
+.perfil_8{
+  background-image: url();
+}
+.perfil_9{
+  background-image: url();
+}
+.perfil_10{
+  background-image: url(http://i.imgur.com/IUQF9Ol.png);
+}
+.perfil_11{
+  background-image: url();
+}
+.perfil_12{
+  background-image: url(http://i.imgur.com/aVM0zNQ.png);
+}
+.perfil_13{
+  background-image: url(http://i.imgur.com/5jctbZn.png);
+}
+.perfil_14{
+  background-image: url(http://i.imgur.com/sBF8YED.png);
+}
+.perfil_15{
+  background-image: url(http://i.imgur.com/BvRJMM0.png);
+}
+.perfil_16{
+  background-image: url();
+}
+
+.inscribete {
+  background-color: #2f2b68;
+  font-family: "Lato";
+  padding: 20px 40px;
+  text-align: center;
+  transition: all 300ms ease-in-out;
+  pointer-events: stroke;
+}
+div.inscribete:hover {
+  box-shadow: 2px 40px  20px -25px rgba(0, 0, 0, 0.8);;
+  transform: translateY(-20px);
+}
+.inscribete a {
+  color: white;
+  text-decoration: none;
 }
