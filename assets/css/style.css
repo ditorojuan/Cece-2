@@ -510,7 +510,7 @@ p{
   background-color: #f7a300;
   width: auto;
   position: relative;
-  left: 40%;
+  left: 38%;
   padding: 0;
   display: inline-block;
 }
@@ -522,8 +522,8 @@ p{
   font-family: "Heuristica";
   font-weight: 200;
   color: #000;
-  margin: -1em 0 0 0;
-  padding: 0 2em;
+  margin: 4px 0 0 0;
+  padding: 4px 40px;
   font-size: 0.8em;
   text-decoration: none;
 }
