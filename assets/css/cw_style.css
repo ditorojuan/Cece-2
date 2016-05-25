@@ -75,7 +75,8 @@
   background-attachment: fixed;
   background-size: cover;
   padding: 10% 0;
-  width: 102%;
+  width: 100%;
+  margin: -1px 0;
   transform: scale(0);
   transition: all 350ms ease-in-out;
 }
@@ -118,53 +119,76 @@
 .ponente_show_zoomin{
   transform: scale(1);
 }
+/**Boris**/
 .perfil_1 {
-  background-image: url();
+  background-image: url(http://i.imgur.com/SKTpfhy.png);
 }
+/**Boris**/
 .perfil_2{
   background-image: url(http://i.imgur.com/tmEpYEV.png);
 }
+/**Boris**/
 .perfil_3{
   background-image: url(http://i.imgur.com/1d7FbOj.png);
 }
+/**Boris**/
 .perfil_4{
-  background-image: url();
+  background-image: url(http://i.imgur.com/YTjZAHz.png);
 }
+/**Boris**/
 .perfil_5{
   background-image: url(http://i.imgur.com/T3LKlDV.png);
 }
+/**Boris**/
 .perfil_6{
   background-image: url(http://i.imgur.com/e86fsDs.png);
 }
+/**Boris**/
 .perfil_7{
-  background-image: url();
+  background-image: url(http://i.imgur.com/15iTGIJ.png);
+  background-size: contain;
 }
+/**Boris**/
 .perfil_8{
-  background-image: url();
+  background-image: url(http://i.imgur.com/UeFk0E4.png);
+  background-size: contain;
 }
+/**Boris**/
 .perfil_9{
-  background-image: url();
+  background-image: url(http://i.imgur.com/ziATkda.png);
+  background-size: contain;
 }
+/**Boris**/
 .perfil_10{
   background-image: url(http://i.imgur.com/IUQF9Ol.png);
 }
+/**Boris**/
 .perfil_11{
-  background-image: url();
+  background-image: url(http://i.imgur.com/27HBwH7.png);
 }
+/**Boris**/
 .perfil_12{
   background-image: url(http://i.imgur.com/aVM0zNQ.png);
 }
+/**Boris**/
 .perfil_13{
   background-image: url(http://i.imgur.com/5jctbZn.png);
 }
+/**Boris**/
 .perfil_14{
   background-image: url(http://i.imgur.com/sBF8YED.png);
 }
+/**Boris**/
 .perfil_15{
   background-image: url(http://i.imgur.com/BvRJMM0.png);
 }
+/**Boris**/
 .perfil_16{
   background-image: url();
+}
+/**Boris**/
+.perfil_17{
+  background-image: url(http://i.imgur.com/SSlBDzb.png);
 }
 
 .inscribete {
@@ -173,7 +197,7 @@
   padding: 20px 40px;
   text-align: center;
   transition: all 300ms ease-in-out;
-  pointer-events: stroke;
+  cursor: pointer;
 }
 div.inscribete:hover {
   box-shadow: 2px 40px  20px -25px rgba(0, 0, 0, 0.8);;
