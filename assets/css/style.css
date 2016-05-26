@@ -4,7 +4,7 @@
 }
 @font-face{
     font-family: Heuristica;
-    src: url(../fonts/Heuristica.ttf);
+    src: url(../fonts/Heuristica.otf);
 }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
@@ -469,7 +469,8 @@ h6 {
 }
 
 p{
-    font-family: "Heuristica";
+    font-family: "Open Sans";
+    line-height: 1.5em;
 }
 
 .contenedor_cece {
@@ -706,8 +707,8 @@ ul.nav>li a:hover{
 }
 /** post body**/
 .postcontent_cece{
-  font-family: "Heuristica";
-  font-weight: 400;
+  font-family: "Open Sans";
+  font-weight: 500;
   margin: 1em 2em 0 2em;
   padding: 1em 0 1em 1em;
 }
