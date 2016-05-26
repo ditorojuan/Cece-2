@@ -2,10 +2,7 @@
     font-family: Antonio;
     src: url(../fonts/Antonio.ttf);
 }
-@font-face{
-    font-family: Heuristica;
-    src: url(../fonts/Heuristica.otf);
-}
+@import url(https://fonts.googleapis.com/css?family=Niconne&subset=latin,latin-ext);
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /**
@@ -520,9 +517,9 @@ p{
   text-align: center;
   display: inline-block;
   text-transform: uppercase;
-  font-family: "Heuristica";
-  font-weight: 200;
+  font-family: "Niconne";
   color: #000;
+  font-weight: 200;
   margin: 4px 0 0 0;
   padding: 4px 40px;
   font-size: 0.8em;
@@ -561,7 +558,7 @@ nav.navigation{
 }
 ul.nav{
   display: inline-block;
-  font-family: "Heuristica";
+  font-family: "Niconne";
   text-transform: uppercase;
   width: auto;
   background-color: #f7a300;
@@ -614,7 +611,7 @@ ul.nav>li a:hover{
 
   .m-Nav{
     display: block;
-    font-family: "Heuristica";
+    font-family: "Niconne";
     text-transform: uppercase;
     position: fixed;
     top:0%;
@@ -696,7 +693,7 @@ ul.nav>li a:hover{
  }
 .date_cece{
   color: #7c7c7c;
-  font-family: "Heuristica";
+  font-family: "Niconne";
   font-style: italic;
   font-weight: 300;
   margin: 0 0 0 0;
@@ -722,7 +719,7 @@ ul.nav>li a:hover{
   }
 }
 .posttags_cece{
-  font-family: "Heuristica";
+  font-family: "Niconne";
   font-style: italic;
   color: #7c7c7c;
   margin: 0 0 2em 3em;
@@ -759,7 +756,7 @@ ul.nav>li a:hover{
 }
 
 .pagination{
-  font-family: "Heuristica";
+  font-family: "Niconne";
   text-align: center;
   color: #444444;
 }
@@ -776,7 +773,7 @@ ul.nav>li a:hover{
 /** footer **/
 .derechos_autor{
   color: rgba(0, 0, 0, 0.5);
-  font-family: "Heuristica";
+  font-family: "Open Sans";
 }
 
 .derechos_autor a{
