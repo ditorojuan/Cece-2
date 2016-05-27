@@ -78,6 +78,7 @@
   width: 100%;
   margin: -1px 0;
   transform: scale(0);
+  position: relative;
   transition: all 350ms ease-in-out;
 }
 .cw_quote{
@@ -119,76 +120,76 @@
 .ponente_show_zoomin{
   transform: scale(1);
 }
-/**Boris**/
+/**kaiser**/
 .perfil_1 {
   background-image: url(http://i.imgur.com/SKTpfhy.png);
 }
-/**Boris**/
+/**Tovar**/
 .perfil_2{
   background-image: url(http://i.imgur.com/tmEpYEV.png);
 }
-/**Boris**/
+/**Mila de la Roca**/
 .perfil_3{
   background-image: url(http://i.imgur.com/1d7FbOj.png);
 }
-/**Boris**/
+/**Nunez**/
 .perfil_4{
   background-image: url(http://i.imgur.com/YTjZAHz.png);
 }
-/**Boris**/
+/**guerra**/
 .perfil_5{
   background-image: url(http://i.imgur.com/T3LKlDV.png);
 }
-/**Boris**/
+/**Barboza**/
 .perfil_6{
   background-image: url(http://i.imgur.com/e86fsDs.png);
 }
-/**Boris**/
+/**tang**/
 .perfil_7{
   background-image: url(http://i.imgur.com/15iTGIJ.png);
   background-size: contain;
 }
-/**Boris**/
+/**velazques**/
 .perfil_8{
   background-image: url(http://i.imgur.com/UeFk0E4.png);
   background-size: contain;
 }
-/**Boris**/
+/**chuorio**/
 .perfil_9{
   background-image: url(http://i.imgur.com/ziATkda.png);
   background-size: contain;
 }
-/**Boris**/
+/**Aguilar**/
 .perfil_10{
   background-image: url(http://i.imgur.com/IUQF9Ol.png);
 }
-/**Boris**/
+/**Aponte**/
 .perfil_11{
-  background-image: url(http://i.imgur.com/27HBwH7.png);
+  background-image: url();
 }
-/**Boris**/
+/**pedrosa**/
 .perfil_12{
   background-image: url(http://i.imgur.com/aVM0zNQ.png);
 }
-/**Boris**/
+/**pena**/
 .perfil_13{
   background-image: url(http://i.imgur.com/5jctbZn.png);
 }
-/**Boris**/
+/**Cordero**/
 .perfil_14{
-  background-image: url(http://i.imgur.com/sBF8YED.png);
+  background-image: url(http://i.imgur.com/aT1uKCK.png);
 }
-/**Boris**/
+/**Hernandez**/
 .perfil_15{
   background-image: url(http://i.imgur.com/BvRJMM0.png);
 }
-/**Boris**/
+/**Harting**/
 .perfil_16{
-  background-image: url();
+  background-image: url(http://i.imgur.com/27HBwH7.png);
 }
-/**Boris**/
+/**Sanabria**/
 .perfil_17{
-  background-image: url(http://i.imgur.com/SSlBDzb.png);
+  background-image: url(http://i.imgur.com/OmQLBxm.png);
 }
 
 .inscribete {

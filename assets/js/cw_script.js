@@ -24,12 +24,12 @@ $(window).scroll(function(){
     }
   }
 
-  if(wScroll > $('.ponente').parent('.row').offset().top - multiplyWindowsH){
-
-    $('.ponente_perfil').each(function(i){
+  if(wScroll > $('.row.ponentes').offset().top - multiplyWindowsH){
+    $('.row.ponentes').addClass('canSee');
+    $('.ponente').each(function(i){
       setTimeout(function(){
-        $('.ponente_perfil').eq(i).addClass('ponente_show_zoomin');
-        $('.ponente_info').eq(i).slideDown();
+        $('.ponente').find('.ponente_perfil').eq(i).addClass('ponente_show_zoomin');
+        $('.ponente').find('.ponente_info').eq(i).slideDown();
      }, (150 * (i+3)));
    });
  }
